@@ -13,7 +13,7 @@ The technical highlights of our project are as follows:
 
 ## Installation
 
-Simply clone the repo.  The code for Dune is in `dune.c`.
+Simply clone this repository to get the code.  Since the emulator for the [DE1-SoC](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836) board does not support multiple C files, all the code for Dune is in `dune.c`.
 
 ```bash
 git clone https://github.com/adamw8/Dune-DE1_SoC.git
