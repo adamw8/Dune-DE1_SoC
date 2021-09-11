@@ -11,6 +11,12 @@ The technical highlights of our project are as follows:
 * Custom physics engine
 * Custom game fonts
 
+## Gameplay footage
+The gameplay footage can be found here: https://youtu.be/EgDXtpAh_6s. 
+[![here.](https://img.youtube.com/vi/EgDXtpAh_6s/maxresdefault.jpg)](https://youtu.be/EgDXtpAh_6s)
+
+The video footage looks a bit choppy due to the recording software.  The actual gameplay on a physical board is quite smooth.
+
 ## Installation
 
 Simply clone this repository to get the code.  Since the emulator for the [DE1-SoC](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836) board does not support multiple C files, all the code for Dune is in `dune.c`.
