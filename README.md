@@ -1,7 +1,7 @@
 # Dune
 Dune is our version of the popular mobile games, [Dune!](https://play.google.com/store/apps/details?id=io.voodoo.dune&hl=en_CA&gl=US) and [Tiny Wings](https://apps.apple.com/ca/app/tiny-wings/id417817520), for the [DE1-SoC](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836) board.  The objective is to ride through a series of undulating hills and achieve the maximum possible score before crashing.
 
-The game was coded at a very low-level using C, and writes directly to the board's registers to control the double-buffered VGA display, HEX displays, switches, and PS/2 keyboard interface.  Multiple techniques and computer graphics algorithms were used to update the frames efficiently, and a custom physics engine was written to control the player's character.
+The game was coded at a very low-level using C, and writes directly to the board's registers to control the double-buffered VGA display, HEX displays, switches, and PS/2 keyboard interface.  Multiple techniques and computer graphics algorithms were used to update the frames efficiently, and a custom physics engine was written to control the player's character.  Due to limitations in the simulation software, all the code had to be in one file.
 
 The technical highlights of our project are as follows:
 * Bresenham's line and circle algorithms for accurate and fast graphics
